@@ -75,13 +75,13 @@ ScrollReveal({
   delay: 200,
 });
 ScrollReveal().reveal(
-  ".home-content, .heading, .about-img2 video, .home-content h5,  .profession-container",
+  " .heading, .about-img2 video,  .profession-container",
   {
     origin: "top",
   }
 );
 ScrollReveal().reveal(
-  ".home-img img, .services-container, .portfolio-box, .social-media2, .about-content p, .footer-iconTop, .timeline, .contact form",
+  ".home-img img, .services-container, .portfolio-box, .social-media2, .about-content p, .timeline, .contact form",
   { origin: "bottom" }
 );
 ScrollReveal().reveal(

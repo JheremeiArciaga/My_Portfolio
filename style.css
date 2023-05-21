@@ -396,25 +396,27 @@ background-color: var(--main-color);
   letter-spacing: 0.1rem;
   font-weight: 600;
   border: 0.2rem solid transparent;
-  transition: 0.5s ease;
+ transform:scale(1)
 }
 
 .btns:before {
   content: "";
   position: absolute;
   border: 1px solid var(--main-color);
-  left: -6px;
-  bottom: 0;
-  width: 43%;
-  height: 18%;
+  left: -0.7rem;
+  bottom:0;
+  width: 106%;
+  height: 100%;
   border-radius: 0.6rem;
   rotate: -4deg;
   -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  z-index:1;
+  
 }
 
-.btns:hover {
-  transform: scale(1.1);
+.btns:hover{
+  transform:scale(1.1);
 }
 
 .home .profession-container {
@@ -1177,6 +1179,7 @@ span {
 }
 
 /* contact */
+
 .contact {
   padding-top: 5rem;
 }
@@ -1184,10 +1187,10 @@ span {
   content: "";
   position: absolute;
   top: 0;
-  right: 0;
+  left:0;
   border: 1px solid var(--main-color);
-  height: 102%;
-  width: 101%;
+  height: 100%;
+  width: 100%;
   -webkit-transform: rotate(-1.5deg);
   -moz-transform: rotate(-1.5deg);
   transform: rotate(-1.5deg);
@@ -1318,9 +1321,7 @@ span {
     background: var(--main-color);
     opacity: 0.7;
   }
-  .btns:before {
-    display: none;
-  }
+  
   .home .home-content {
     max-width: 50rem;
   }
@@ -1434,9 +1435,7 @@ span {
     color: #a64b2a;
     text-shadow: var(--text-shadow);
   }
-  .btns:before {
-    display: none;
-  }
+  
   .home-content .social-media a {
     margin: 2.5rem 0.75rem 3rem;
   }
@@ -1610,9 +1609,7 @@ span {
   .portfolio .portfolio-container {
     grid-template-columns: 1fr;
   }
-  .btns {
-    position: relative;
-  }
+ 
   .card:hover .intro {
     height: 15rem;
     bottom: 15rem;
