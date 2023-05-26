@@ -70,7 +70,7 @@ loadMoreBtn.onclick = () => {
 
 ScrollReveal({
   reset: true,
-  distance: "80px",
+  distance: "60px",
   duration: 2000,
   delay: 200,
 });
@@ -78,12 +78,12 @@ ScrollReveal().reveal(" .heading, .about-img2 video,  .profession-container", {
   origin: "top",
 });
 ScrollReveal().reveal(
-  ".home-img img, .services-container, .portfolio-box, .social-media2, .about-content p, .timeline, .contact form",
+  ".services-container, .portfolio-box, .social-media2, .about-content p, .timeline, .contact form",
   { origin: "bottom" }
 );
 ScrollReveal().reveal(
   ".home-content h3, .about-content2, .about-content2 p, .about-img img, .service-gif img, .services-content2 p, .services-content2 .tags2 , .about-content, .about-content p, .services-img2 img, .service-content",
-  { origin: "left" }
+  { delay:500, origin: "left" }
 );
 ScrollReveal().reveal(" ", { origin: "right" });
 
@@ -108,3 +108,4 @@ function sendMail() {
     })
     .catch((err) => console.log(err));
 }
+

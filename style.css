@@ -693,6 +693,13 @@ span {
   color: var(--text2-color);
   text-shadow: var(--text-shadow);
 }
+.timeliness h3{
+    margin-bottom: 4rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: var(--text3-color);
+}
+
 .timeliness h2:last-child {
   color: #7372721b;
 }
