@@ -74,12 +74,9 @@ ScrollReveal({
   duration: 2000,
   delay: 200,
 });
-ScrollReveal().reveal(
-  " .heading, .about-img2 video,  .profession-container",
-  {
-    origin: "top",
-  }
-);
+ScrollReveal().reveal(" .heading, .about-img2 video,  .profession-container", {
+  origin: "top",
+});
 ScrollReveal().reveal(
   ".home-img img, .services-container, .portfolio-box, .social-media2, .about-content p, .timeline, .contact form",
   { origin: "bottom" }
