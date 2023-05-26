@@ -972,7 +972,7 @@ span {
   margin: 2rem 0 3rem;
   text-align: justify;
   text-justify: inter-word;
-  color: #fdfdfd;
+  color: var(--text3-color);
 }
 .tags2 > :not(:last-child) {
   margin-right: 1rem;
