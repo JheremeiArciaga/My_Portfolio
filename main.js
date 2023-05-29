@@ -5,7 +5,7 @@ window.addEventListener(
     window.removeEventListener("load", load, false);
     setTimeout(function () {
       loader.style.display = "none";
-    }, 2000);
+    }, 1000);
   },
   false
 );
@@ -82,8 +82,8 @@ ScrollReveal().reveal(
   { origin: "bottom" }
 );
 ScrollReveal().reveal(
-  ".home-content h3, .about-content2, .about-content2 p, .about-img img, .service-gif img, .services-content2 p, .services-content2 .tags2 , .about-content, .about-content p, .services-img2 img, .service-content",
-  { delay:500, origin: "left" }
+  ".home-content h3, .about-content2, .social-media, .about-content2 p, .about-img img, .service-gif img, .services-content2 p, .services-content2 .tags2 , .about-content, .about-content p, .services-img2 img, .service-content",
+  { delay: 500, origin: "left" }
 );
 ScrollReveal().reveal(" ", { origin: "right" });
 
