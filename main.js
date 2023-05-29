@@ -83,7 +83,7 @@ ScrollReveal().reveal(
 );
 ScrollReveal().reveal(
   ".home-content h3, .about-content2, .social-media, .about-content2 p, .about-img img, .service-gif img, .services-content2 p, .services-content2 .tags2 , .about-content, .about-content p, .services-img2 img, .service-content",
-  { delay: 500, origin: "left" }
+  { delay: 100, origin: "left" }
 );
 ScrollReveal().reveal(" ", { origin: "right" });
 
