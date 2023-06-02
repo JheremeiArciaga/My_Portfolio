@@ -52,7 +52,6 @@ darkModeIcon.onclick = () => {
   darkModeIcon.classList.toggle("bx-sun");
   document.body.classList.toggle("dark-mode");
 };
-
 // loadmore
 let loadMoreBtn = document.querySelector("#load-more");
 let currentItem = 3;
@@ -63,6 +62,7 @@ loadMoreBtn.onclick = () => {
     boxes[i].style.display = "inline-block";
   }
   currentItem += 3;
+
   if (currentItem >= boxes.length) {
     loadMoreBtn.style.display = "inline-block";
   }
@@ -108,3 +108,4 @@ function sendMail() {
     })
     .catch((err) => console.log(err));
 }
+
