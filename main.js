@@ -78,7 +78,7 @@ ScrollReveal().reveal(" .heading, .about-img2 video,  .profession-container", {
   origin: "top",
 });
 ScrollReveal().reveal(
-  ".services-container, .portfolio-box, .social-media2, .about-content p, .timeline, .contact form",
+  ".services-container, .portfolio-box, .social-media2, .about-content p, .contact form",
   { origin: "bottom" }
 );
 ScrollReveal().reveal(

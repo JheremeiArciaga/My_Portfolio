@@ -13,11 +13,16 @@
     <link rel="stylesheet" href="style.css">
     <!-- box-icon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- aos library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Website icon -->
     <link rel="shortcut icon" href="images/imageicon.png" type="image/x-icon">
     <!-- <link href="/dist/output.css" rel="stylesheet"> -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
+    <!-- email js -->
     <script type="text/javascript">
         (function () {
             emailjs.init("kx8ENltFcDEzAQZKE");
@@ -26,9 +31,9 @@
 </head>
 
 <body>
-    <div id="page-loader">
-        <!-- <div class="spinner"></div> -->
-    </div>
+    <!-- <div id="page-loader">
+        <div class="spinner"></div>
+    </div> -->
 
     <header class="header">
         <a href="#" class="logo">@Jheremei</a>
@@ -42,6 +47,7 @@
         <div class="bx bx-moon" id="darkMode-icon"></div>
         <div class="bx bx-menu" id="menu-icon"></div>
     </header>
+
     <section class="home" id="home">
         <div class="home-content">
             <div class="typewriter">
@@ -161,8 +167,8 @@
         <div class="containersss">
             <div class="timeline">
                 <ul>
-                    <li>
-                        <div class="timeline-content">
+                    <li  data-aos="zoom-in-right" data-aos-duration="1000" >
+                        <div class="timeline-content" >
                             <h3 class="date">2018-2023</h3>
                             <h1>Education</h1>
                             <p> Bachelor of Science in Information and Technology
@@ -170,7 +176,7 @@
                             </p>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="zoom-in-left" data-aos-duration="1000">
                         <div class="timeline-content">
                             <h3 class="date">2021-2022</h3>
                             <h1>Experience</h1>
@@ -178,7 +184,7 @@
                                 Javascript, PHP and Mysql</p>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="zoom-in-right" data-aos-duration="1000" >
                         <div class="timeline-content">
                             <h3 class="date">2020</h3>
                             <h1>Experience</h1>
@@ -186,14 +192,14 @@
                                 jQuery, AOS library, Three.js, chart.js, slider.js etc..).</p>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="zoom-in-left" data-aos-duration="1000">
                         <div class="timeline-content">
                             <h3 class="date">2019</h3>
                             <h1>Experience</h1>
                             <p>Creates E-commerse website, dinasour game using c++ and other landing page</p>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="zoom-in-right" data-aos-duration="1000">
                         <div class="timeline-content">
                             <h3 class="date">2018</h3>
                             <h1>Experience</h1>
@@ -224,10 +230,10 @@
                         <span class="tag3">$javascript</span>
                     </div>
                     <div class="pro">
-                        <a href="https://github.com/JheremeiArciaga" class="pros" target="_blank">
+                        <a href="https://github.com/JheremeiArciaga/Restaurant_Website" class="pros" target="_blank">
                             <i class='bx bxl-github'></i>
                         </a>
-                        <a href="#" class="pros">
+                        <a href="https://jheremeiarciaga.github.io/Restaurant_Website/" class="pros">
                             <i class='bx bx-desktop'></i>
                         </a>
                     </div>
@@ -246,10 +252,10 @@
                         <span class="tag3">$javascript</span>
                     </div>
                     <div class="pro">
-                        <a href="https://github.com/JheremeiArciaga" class="pros" target="_blank">
+                        <a href="https://github.com/JheremeiArciaga/My_Portfolio" class="pros" target="_blank">
                             <i class='bx bxl-github'></i>
                         </a>
-                        <a href="#" class="pros">
+                        <a href="https://jheremeiarciaga.github.io/My_Portfolio/" class="pros">
                             <i class='bx bx-desktop'></i>
                         </a>
                     </div>
@@ -381,7 +387,7 @@
                         target="_blank">View Credential ></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card card1">
                 <img src="images/c2.jpg" alt="asd">
                 <div class="intro">
                     <h1>Complete Guide for Frontend Web Development</h1>
@@ -501,10 +507,30 @@
             <a href="#home"><i class='bx bxs-chevrons-up'></i></a>
         </div>
     </footer>
+    <!-- <button onclick="alert('Are you sure you want to continue?')"> 
+        <img src="https://yourserver.com/button_img.jpg" 
+            alt="Submit the form" height="64" width="64">
+     </button>  -->
+    
+      <!-- <label for="course">Choose a course:</label><br> 
+<select id="course" name="courselist"> 
+  <option value="html">HTML Introduction</option> 
+  <option value="css">Styling with CSS</option> 
+  <option value="js">JavaScript</option> 
+  <option value="react">React Basics</option> 
+</select>  -->
+<!-- <figure> 
+    <img src="images/imageicon.png" width="320" alt="My Profile Photo"> 
+    <figcaption>A photo of myself on a beach in 2015</figcaption> 
+ </figure> -->
 
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
