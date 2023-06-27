@@ -1216,6 +1216,13 @@ span {
   border-color: var(--main-color);
   cursor: pointer;
 }
+#load-more.loaded{
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  transition: visibility .3s .3s, visibilty .3s .3s, visibility .3s .3s;
+  text-indent: -999px;
+}
 
 .card .btn-ko {
   margin: 0 auto;
