@@ -1254,6 +1254,7 @@ span {
 
 .contact {
   padding-top: 5rem;
+  padding-bottom: 6rem;
 }
 .contact form::after {
   content: "";
