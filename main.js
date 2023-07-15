@@ -86,18 +86,18 @@ loadMoreBtn.addEventListener("click", () => {
 ScrollReveal({
   reset: true,
   distance: "60px",
-  duration: 2000,
-  delay: 200,
+  duration: 1500,
+  delay: 100,
 });
-ScrollReveal().reveal(" .heading, .about-img2 video,  .profession-container", {
+ScrollReveal().reveal(" .heading,  .profession-container", {
   origin: "top",
 });
 ScrollReveal().reveal(
-  ".services-container, .portfolio-box, .social-media2, .about-content p, .contact form",
+  ".services-container, .portfolio-box, .about-content p, .contact form, .service-gif img, .services-img2 img",
   { origin: "bottom" }
 );
 ScrollReveal().reveal(
-  ".home-content h3, .about-content2, .social-media, .about-content2 p, .about-img img, .service-gif img, .services-content2 p, .services-content2 .tags2 , .about-content, .about-content p, .services-img2 img, .service-content",
+  ".home-content h3, .about-content2, .social-media, .about-content2 p, .services-content2 p, .services-content2 .tags2 , .about-content, .about-content p, .service-content",
   { delay: 100, origin: "left" }
 );
 ScrollReveal().reveal(" ", { origin: "right" });

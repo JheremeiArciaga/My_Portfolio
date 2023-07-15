@@ -18,7 +18,6 @@
   "homepage": "https://github.com/JheremeiArciaga/My_Portfolio#readme",
   "devDependencies": {
     "tailwindcss": "^3.3.2"
-  },
-  
-  "keywords": []
+  }
+
 }
