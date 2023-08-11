@@ -1116,8 +1116,8 @@ span {
   padding: 0.5rem 1.5rem;
   display: inline-block;
   margin-top: 1rem;
-  font-size: clamp(0.75rem, 0.2031rem + 1.75vw, 1.1875rem);
-  /* 12 to 19 */
+  font-size: clamp(0.5625rem, -0.2969rem + 2.75vw, 1.25rem);
+  /* 9 to 20 */
 }
 
 /* certificate */
@@ -1657,8 +1657,8 @@ span {
   }
   .tags3 .tag3 {
     padding: 0.8rem 1.7rem;
-    font-size: clamp(0.75rem, 0.2031rem + 1.75vw, 1.1875rem);
-    /* 12 to 19 */
+    font-size: clamp(0.5625rem, -0.2969rem + 2.75vw, 1.25rem);
+    /* 9 to 20 */
   }
 }
 @media (max-width: 617px) {
@@ -1961,8 +1961,8 @@ span {
   }
   .tags3 .tag3 {
     margin-top: 1rem;
-    font-size: clamp(0.75rem, 0.2031rem + 1.75vw, 1.1875rem);
-    /* 12 to 19 */
+    font-size: clamp(0.5625rem, -0.2969rem + 2.75vw, 1.25rem);
+    /* 9 to 20 */
   }
 }
 .triangle {
