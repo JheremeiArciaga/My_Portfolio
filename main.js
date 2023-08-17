@@ -97,7 +97,7 @@ ScrollReveal().reveal(
   { origin: "bottom" }
 );
 ScrollReveal().reveal(
-  ".home-content h3, .about-content2, .social-media, .about-content2 p, .services-content2 p, .services-content2 .tags2 , .about-content, .about-content p, .service-content",
+  ".home-content h3, .about-content2, .about-content2 p, .services-content2 p, .services-content2 .tags2 , .about-content, .about-content p, .service-content",
   { delay: 100, origin: "left" }
 );
 ScrollReveal().reveal(" ", { origin: "right" });
