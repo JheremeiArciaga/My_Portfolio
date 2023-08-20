@@ -52,22 +52,7 @@ darkModeIcon.onclick = () => {
   darkModeIcon.classList.toggle("bx-sun");
   document.body.classList.toggle("dark-mode");
 };
-// loadmore
-// let loadMoreBtn = document.querySelector("#load-more");
-// let currentItem = 3;
 
-// loadMoreBtn.onclick = () => {
-//   let boxes = [...document.querySelectorAll(".container .card")];
-//   for (let i = currentItem; i < currentItem + 3; i++) {
-//     boxes[i].style.display = "inline-block";
-//   }
-//   currentItem += 3;
-
-//   if (currentItem >= boxes.length) {
-//     loadMoreBtn.style.display = "inline-block";
-//   }
-
-// };
 let loadMoreBtn = document.querySelector("#load-more");
 let currentItems = 3;
 
@@ -86,10 +71,10 @@ loadMoreBtn.addEventListener("click", () => {
 ScrollReveal({
   reset: true,
   distance: "60px",
-  duration: 1500,
+  duration: 1000,
   delay: 100,
 });
-ScrollReveal().reveal(" .heading,  .profession-container", {
+ScrollReveal().reveal(".profession-container", {
   origin: "top",
 });
 ScrollReveal().reveal(
