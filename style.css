@@ -478,6 +478,7 @@ margin: 0 auto;
   transform-origin: 384px;
   background: var(--bg-color);
   padding: 13px 0;
+  
 }
 .home .profession-box .profession:nth-child(1) i {
   margin-right: 15px;
