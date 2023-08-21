@@ -550,6 +550,7 @@ span {
   background-color: rgba(215, 168, 110, 0.349);
   padding: 2rem;
   border-radius: 2rem;
+  position: relative;
 }
 .about-content::after {
   content: "";
@@ -1253,11 +1254,12 @@ span {
 
 /* contact */
 
-.contact {
+form {
   padding-top: 5rem;
   padding-bottom: 6rem;
+  position: relative;
 }
-.contact form::after {
+ form::after {
   content: "";
   position: absolute;
   top: 0;

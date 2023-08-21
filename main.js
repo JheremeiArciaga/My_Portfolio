@@ -68,24 +68,24 @@ loadMoreBtn.addEventListener("click", () => {
   if (currentItems >= elementList.length) event.target.classList.add("loaded");
 });
 
-ScrollReveal({
-  reset: true,
-  distance: "60px",
-  duration: 1000,
-  delay: 100,
-});
-ScrollReveal().reveal("", {
-  origin: "top",
-});
-ScrollReveal().reveal(
-  " .portfolio-box, .about-content p, .contact form, .service-gif img, .services-img2 img",
-  { origin: "bottom" }
-);
-ScrollReveal().reveal(
-  ".home-content h3, .about-content2, .about-content2 p, .services-content2 p, .services-content2 .tags2 , .about-content, .about-content p, .service-content p, .service-content .tags ",
-  { delay: 100, origin: "left" }
-);
-ScrollReveal().reveal(" ", { origin: "right" });
+// ScrollReveal({
+//   reset: true,
+//   distance: "60px",
+//   duration: 1000,
+//   delay: 100,
+// });
+// ScrollReveal().reveal("", {
+//   origin: "top",
+// });
+// ScrollReveal().reveal(
+//   " .portfolio-box, .about-content p, .contact form, .service-gif img, .services-img2 img",
+//   { origin: "bottom" }
+// );
+// ScrollReveal().reveal(
+//   ".home-content h3, .about-content2, .about-content2 p, .services-content2 p, .services-content2 .tags2 , .about-content, .about-content p, .service-content p, .service-content .tags ",
+//   { delay: 100, origin: "left" }
+// );
+// ScrollReveal().reveal(" ", { origin: "right" });
 
 function sendMail() {
   var params = {
