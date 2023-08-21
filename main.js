@@ -74,11 +74,11 @@ ScrollReveal({
   duration: 1000,
   delay: 100,
 });
-ScrollReveal().reveal(".profession-container", {
+ScrollReveal().reveal("", {
   origin: "top",
 });
 ScrollReveal().reveal(
-  ".services-container, .portfolio-box, .about-content p, .contact form, .service-gif img, .services-img2 img",
+  " .portfolio-box, .about-content p, .contact form, .service-gif img, .services-img2 img",
   { origin: "bottom" }
 );
 ScrollReveal().reveal(
