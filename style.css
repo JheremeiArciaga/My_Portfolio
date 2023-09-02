@@ -2037,3 +2037,89 @@ form {
   left: 21%;
   bottom: -6%;
 }
+
+.swipe{
+  padding-top: 6rem;
+height: 100vh;
+
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.test {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: clamp(0.75rem, 0.125rem + 2vw, 1.25rem);
+  
+}
+
+
+.testimonial {
+  max-width: 900px;
+  position: relative;
+  width: 100%;
+  padding: 0 0 35px 0;
+  overflow: hidden;
+}
+.testimonial .imagepic {
+  max-width: 170px;
+ margin-top: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.testimonial .slide {
+ 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.slide p {
+  padding: 0 60px;
+  text-align: center;
+  font-size: clamp(0.75rem, 0.125rem + 2vw, 1.25rem);
+  font-weight: 400;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+@media (max-width: 568px){
+  .slide p {
+    padding: 0 20px;
+   
+  }
+}
+.slide .quote-icon {
+  font-size: 30px;
+  margin-bottom: 2rem;
+  color: var(--main-color1);
+}
+.slide .details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details .name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+}
+.details .job {
+  font-size: 13px;
+  font-weight: 400;
+  color: #333;
+}

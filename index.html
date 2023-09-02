@@ -14,6 +14,8 @@
     <meta property="og:site_name" content="Jheremei Arciaga">
     <meta property="og:url" content="https://jheremeiarciaga.github.io/My_Portfolio/">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- box-icon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- aos library -->
@@ -489,6 +491,34 @@
         <div id="load-more" role="button">Load More</div>
 
     </section>
+
+<section class="swipe">
+    <div class="testimonial swiper mySwiper">
+        <h2 class="heading">
+        Testimonials
+    </h2>
+  
+        <div class="testi-content swiper-wrapper">
+         
+            <div class="slide swiper-slide">
+                <img src="images/Aldous.jpg" alt="aldous" class="imagepic" />
+                <p><em>
+                    I have never dealt with somebody with such a vivid imagination. You come up with novel answers to some of our most difficult situations. To make a decision that benefits the entire team, you always acquire all of the information and data. Your team consistently achieves its objects. frequently exceeding them. You are always on time and have demonstrated good work habits in every way. It's been a pleasure working with you these months. I wanted to thank you for all you have done as Data analyst intern here Neodocto Inc. I wish you goodluck in your future endeavors. I am certain you'll achieve everything you work towards.
+                </p>
+                </em>
+                <i class='bx bxs-quote-alt-left quote-icon'></i>
+                <div class="details">
+                    <span class="name">Rose Ann Corales</span>
+                    <span class="job">Senior lead</span>
+                </div>
+            </div>
+       
+            <!-- <div class="swiper-slide">Slide 2</div> -->
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
     <div class="home-content2">
         <h1 class="heading">My Tech Stacks </h1>
         <h5 class="gitna">Technology stacks that I am currently working on.</h5>
@@ -590,9 +620,17 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
         AOS.init();
     </script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
 
 </body>
 
