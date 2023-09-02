@@ -311,7 +311,7 @@ margin: 0 auto;
 
 /* home2 */
 .home-content2 {
-  margin-top: 8rem;
+
   margin-bottom: 5rem;
   background-color: #1f1f1f;
   padding: 3rem 0 6rem 0;
@@ -2040,6 +2040,7 @@ form {
 
 .swipe{
   padding-top: 6rem;
+  margin-bottom: 5rem;
 height: 100vh;
 
 }
