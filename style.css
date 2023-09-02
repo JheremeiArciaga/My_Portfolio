@@ -2065,7 +2065,14 @@ height: 100vh;
   
 }
 
-
+.swiper-slide img {
+  width: 100%;
+  max-width: 170px;
+ margin-top: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
 .testimonial {
   max-width: 900px;
   position: relative;
@@ -2073,13 +2080,7 @@ height: 100vh;
   padding: 0 0 35px 0;
   overflow: hidden;
 }
-.testimonial .imagepic {
-  max-width: 170px;
- margin-top: 5rem;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-}
+
 .testimonial .slide {
  
   align-items: center;
