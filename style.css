@@ -2045,11 +2045,10 @@ form {
 height: 104vh;
 
 }
-@media (max-width: 432px){
+@media (max-width: 435px){
 .swipe{
  padding-top: 6rem;
   margin-bottom: 0;
-
 }
 .swiper-slide {
   padding-top: 4rem;
