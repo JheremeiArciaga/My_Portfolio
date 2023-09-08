@@ -744,6 +744,7 @@ span {
   line-height: 20px;
   font-weight: 300;
   color: var(--main-color);
+  text-align: justify;
 }
 .timeline-content .date {
   font-size: clamp(1.1875rem, 1.0313rem + 0.5vw, 1.3125rem);
