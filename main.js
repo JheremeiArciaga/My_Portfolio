@@ -5,7 +5,7 @@ window.addEventListener(
     window.removeEventListener("load", load, false);
     setTimeout(function () {
       loader.style.display = "none";
-    }, 1300);
+    }, 300);
   },
   false
 );
