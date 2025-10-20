@@ -22,12 +22,13 @@
   --text1-color: #332700;
   --main-color: #d7a86e;
   --main-color1: #d7a86e;
-  --white-color: #fdfdfd;
+  --white-color: #ffffff;
   --shadow-color: rgba(0, 0, 0, 0.2);
   --text-shadow: 1px 3px 1px rgba(49, 49, 49, 0.349);
   --text-font: "Source Sans Pro", sans-serif;
 }
 .dark-mode {
+  
   --bg-color: #0b061f;
   --text-color: #fdfdfd;
   --shadow-color: rgba(0, 0, 0, 0.7);
@@ -35,6 +36,7 @@
   --text2-color: #fdfdfd;
   --text3-color: #d7a86e;
   --main-color1: #fdfdfd;
+  --whites-color: #fdfdfd;
 }
 html {
   font-size: 62.5%;
@@ -197,7 +199,7 @@ body {
 }
 #darkMode-icon {
   font-size: 2.4rem;
-  color: var(--white-color);
+  color: var(--whites-color);
   cursor: pointer;
 }
 .header.sticky #darkMode-icon {
