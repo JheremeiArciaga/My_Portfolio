@@ -1435,7 +1435,7 @@ form {
     margin-top: 0;
   }
   .about-img img {
-    width: 130vw;
+    width: 90vw;
     bottom: -5rem;
   }
 
@@ -1577,7 +1577,7 @@ top:63%;
   }
 
   .about-img img {
-    width: 100vw;
+    width: 80vw;
   }
   .services2 {
     flex-direction: column;
@@ -1812,11 +1812,9 @@ top:63%;
     height: 110%;
   }
   .home .profession-container .profession-box {
-    position: fixed;
-    top: 70%;
-    left: 0;
-    border-radius: 0;
-    width: 100%;
+   
+    display: none;
+ 
   }
   .home .profession-box .circle {
     position: fixed;
