@@ -426,7 +426,7 @@ margin: 0 auto;
 
 .home .profession-container {
   position: absolute;
-  top: 42%;
+  top: 41%;
   right: 0;
   transform: translateY(-50%);
   width: 872px;
@@ -1673,7 +1673,7 @@ top:63%;
     padding-top: 0;
   }
   .about-img img {
-    width: 130vw;
+    width: 90vw;
   }
   .about2 {
     margin-bottom: 0;
