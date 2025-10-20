@@ -199,7 +199,7 @@ body {
 }
 #darkMode-icon {
   font-size: 2.4rem;
-  color: var(--white-color);
+  color: var(--whites-color);
   cursor: pointer;
 }
 .header.sticky #darkMode-icon {
@@ -510,9 +510,9 @@ margin: 0 auto;
   top: 0;
   right: 0;
   height: 0;
-  border-top: 491px solid var(--main-color);
-  border-right: 491px solid var(--main-color);
-  border-bottom: 437px solid var(--main-color);
+  border-top: 387px solid var(--main-color);
+  border-right: 481px solid var(--main-color);
+  border-bottom: 417px solid var(--main-color);
   border-left: 508px solid transparent;
 }
 .home .home-img img {
