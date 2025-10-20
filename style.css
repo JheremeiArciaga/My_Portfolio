@@ -426,11 +426,11 @@ margin: 0 auto;
 
 .home .profession-container {
   position: absolute;
-  top: 40%;
+  top: 42%;
   right: 0;
   transform: translateY(-50%);
-  width: 840px;
-  height: 776px;
+  width: 872px;
+  height: 796px;
   overflow: hidden;
   pointer-events: none;
 }
@@ -509,7 +509,7 @@ margin: 0 auto;
   position: absolute;
   top: 0;
   right: 0;
-  height: 0;
+
   border-top: 387px solid var(--main-color);
   border-right: 481px solid var(--main-color);
   border-bottom: 417px solid var(--main-color);
@@ -1519,7 +1519,7 @@ form {
   }
   .home .profession-container {
     left: 0;
-
+top:42%;
     width: 100%;
     height: 110%;
   }
