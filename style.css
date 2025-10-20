@@ -517,11 +517,11 @@ margin: 0 auto;
   border-bottom: 384px solid var(--main-color);
   border-left: 384px solid transparent;
 }
-.home-img img {
+.home .home-img img {
   position: absolute;
-  bottom: -67px;
-  right: 80px;
-  width: 37%;
+  bottom: 86px;
+  right: 3px;
+  width: 25%;
   pointer-events: none;
 }
 span {
