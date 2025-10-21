@@ -108,3 +108,33 @@ function sendMail() {
     })
     .catch((err) => console.log(err));
 }
+
+const cards = document.querySelectorAll('.image-card img');
+  const modal = document.getElementById('imgModal');
+  const modalImg = document.getElementById('modalImage');
+  const closeBtn = document.querySelector('.close-btn');
+  let scale = 1;
+
+  cards.forEach(card => {
+    card.addEventListener('click', () => {
+      modal.style.display = 'flex';
+      modalImg.src = card.src;
+      scale = 1;
+      modalImg.style.transform = `scale(${scale})`;
+    });
+  });
+
+  closeBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
+  });
+
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) modal.style.display = 'none';
+  });
+
+  modalImg.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    scale += e.deltaY * -0.001;
+    scale = Math.min(Math.max(0.5, scale), 3);
+    modalImg.style.transform = `scale(${scale})`;
+  });

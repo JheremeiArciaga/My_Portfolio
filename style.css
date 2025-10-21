@@ -897,6 +897,7 @@ span {
   text-align: center;
   font-family: "Kanit", sans-serif;
 }
+
 .service-content h2 {
   text-align: left;
   line-height: 1.2;
@@ -2136,3 +2137,120 @@ height: 104vh;
   font-weight: 400;
   color: #333;
 }
+
+
+
+.modal{
+    gap: 20px;
+}
+.title-modal{
+  position: relative;
+  height:200px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal-image{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+  .image-card {
+    position: relative;
+    width: 250px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    transition: transform 0.3s;
+    color: white;
+  }
+
+  .image-card:hover {
+    transform: scale(1.05);
+  }
+
+  .image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+  }
+
+  .image-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, transparent, rgba(0,0,0,0.7));
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 0 0 12px 12px;
+    backdrop-filter: blur(5px);
+  }
+
+  .image-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 0 0 4px 0;
+  }
+
+  .image-description {
+    font-size: 0.9rem;
+    line-height: 1.2;
+    opacity: 0.85;
+    margin: 0;
+  }
+
+  .modal-container {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    border-radius: 12px;
+  }
+
+  .modal-content img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transform-origin: center center;
+    transition: transform 0.2s ease;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  .modal h3{
+    font-size: 1.7rem;
+    color: var(--main-color);
+  }
+
+  @media (max-width: 600px) {
+    .image-card {
+      width: 160px;
+      height: 120px;
+    }
+  }
