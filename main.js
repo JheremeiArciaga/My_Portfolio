@@ -120,6 +120,7 @@ const cards = document.querySelectorAll('.image-card');
         modal.style.display = 'block';
         modalImg.src = img.src;
         document.body.style.overflow = 'hidden';
+        modal.scrollTop = 0;
       });
     });
 
