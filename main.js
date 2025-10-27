@@ -135,3 +135,16 @@ const cards = document.querySelectorAll('.image-card');
         document.body.style.overflow = 'auto';
       }
     });
+    document.getElementById("contactRequestBtn").addEventListener("click", () => {
+  document.getElementById("contactModal").style.display = "block";
+});
+
+document.getElementById("closeContactModal").addEventListener("click", () => {
+  document.getElementById("contactModal").style.display = "none";
+});
+
+window.addEventListener("click", (e) => {
+  if (e.target === document.getElementById("contactModal")) {
+    document.getElementById("contactModal").style.display = "none";
+  }
+});
