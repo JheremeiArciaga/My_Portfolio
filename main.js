@@ -148,3 +148,46 @@ window.addEventListener("click", (e) => {
     document.getElementById("contactModal").style.display = "none";
   }
 });
+
+
+
+
+const cardss = document.querySelectorAll('.image-cards');
+    const modals = document.getElementById('imgModals');
+    const modalImgs = document.getElementById('modalImages');
+    const closeBtns = document.querySelector('.close-btns');
+
+    cardss.forEach(card => {
+      card.addEventListener('click', (e) => {
+        const img = card.querySelector('img');
+        modal.style.display = 'block';
+        modalImg.src = img.src;
+        document.body.style.overflow = 'hidden';
+        modal.scrollTop = 0;
+      });
+    });
+
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = 'none';
+      document.body.style.overflow = 'auto';
+    });
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+      }
+    });
+    document.getElementById("contactRequestBtns").addEventListener("click", () => {
+  document.getElementById("contactModals").style.display = "block";
+});
+
+document.getElementById("closeContactModals").addEventListener("click", () => {
+  document.getElementById("contactModals").style.display = "none";
+});
+
+window.addEventListener("click", (e) => {
+  if (e.target === document.getElementById("contactModals")) {
+    document.getElementById("contactModals").style.display = "none";
+  }
+});
